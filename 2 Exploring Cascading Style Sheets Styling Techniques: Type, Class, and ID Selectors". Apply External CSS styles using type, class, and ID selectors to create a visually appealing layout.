@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header id="main-header">Welcome to Computer Science Engineering Department</header>
+<div class="content-block">
+<h2>About Us</h2>
+<p>The department labs are fully equipped with latest configuration, licensed software's and
+Internet facility.
+Department has experienced and dynamic faculty members. The discipline of
+Computer Science & Engineering has core strengths in the areas of algorithms, data mining, data
+science, network security, computer graphics and computer architecture.
+These, combined with a
+number of ongoing industrial collaborations, including ones with Microsoft, IBM, Google, Barclays
+etc., will help the students prepare for the career of their choice.</p>
+</div>
+<div class="content-block">
+<details><summary>Department Info</summary>
+<ul>
+<li>Vision</li>
+<li>Mission</li>
+<li>Faculty</li>
+</ul>
+</details>
+</div>
+<div class="content-block" id="contact-block">
+<h2>Contact Us</h2>
+<p>Feel free to get in touch with us:</p>
+<p>Email: info@example.com</p>
+</div>
+</body>
+</html>
