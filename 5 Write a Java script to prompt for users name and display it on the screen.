@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Greeting</title>
+</head>
+<body>
+<script language="javascript">
+firstName=prompt("please enter your first name:" ,"");
+document.write("Hello " + firstName + ", welcome to my first page!");
+</script>
+<p>Using function demonstrate the prompt box</p>
+<button onclick="myfunction()">Click Me</button>
+<p id="demo"></p>
+<script>
+function myfunction() {
+let person=prompt("Please enter your name:","");
+if (person != null) {
+document.getElementById("demo").innerHTML = "Hello " + person + "! How are you
+today?";
+}
+}
+</script>
+</body>
+</html>
