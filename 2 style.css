@@ -1,0 +1,54 @@
+/* Type selector – applies to all h1 elements */
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-family: Arial, sans-serif;
+}
+
+/* Type selector – applies to all p elements */
+p {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #333333;
+}
+
+/* Class selector – .highlight */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Class selector – .note */
+.note {
+    background-color: #e0f7fa;
+    border-left: 4px solid #00796b;
+    padding: 8px;
+}
+
+/* ID selector – #special-box */
+#special-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8bbd0;
+    border: 2px solid #c2185b;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Extra styling using classes for layout */
+.card {
+    margin-top: 20px;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 2px 2px 5px #aaaaaa;
+}
+
+.card-title {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.card-text {
+    margin: 0;
+}
